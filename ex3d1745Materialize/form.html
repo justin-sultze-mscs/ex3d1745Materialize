@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Starter Template - Materialize</title>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+<body>
+    <nav class="light-red lighten-1" role="navigation">
+        <div class="nav-wrapper container">
+            <div class="nav-wrapper">
+                <div class="col s12">
+                    <a href="index.html" class="breadcrumb">Homepage</a>
+                    <a href="form.html" class="breadcrumb">Donations</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <br><br>
+            <h1 class="header center red-text text-lighten-2">Donations</h1>
+            <br><br>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="icon-block">
+                        <p> <img class="responsive-img" src="images/Donations.png"> </p>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="icon-block">
+                        <h1 class="center light-blue-text"><i class="material-icons">announcement</i></h1>
+                        <p class="light">Want to get rid of a broken or used Appliance? Feeling Generous? Appliance World will take your appliance off your hands for you! Any donations will be greatly appreciated! </p>
+                        <h3 class="center red-text text-lighten-2 ">Perks of donating?</h3>
+                        <p class="light">When you donate an appliance you get a 10% discount on your next order!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <h5>Choose Dollar Donation Amount:</h5>
+                <div class="row">
+                    <p class="range-field">
+                        <input type="range" id="Donation" min="0" max="500" />
+                    </p>
+                </div>
+                <h5>Input Appliance you wish to Donate:</h5>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="Appliance Donation" type="text" class="validate">
+                        <label>Appliance Donation</label>
+                    </div>
+                </div>
+
+                <h5>Pick-up or Drop off?</h5>
+                <p>
+                    <label>
+                        <input name="group1" type="radio" />
+                        <span>Pick-up</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input name="group1" type="radio" />
+                        <span>Drop off</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input name="group1" type="radio" checked />
+                        <span>No Appliance Donation</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" class="filled-in" />
+                        <span>Donate 5% to Veterans</span>
+                    </label>
+                </p>
+
+                <button class="btn waves-effect waves-light" type="submit" name="action">
+                    Submit
+                    <i class="material-icons right">send</i>
+                </button>
+
+            </form>
+        </div>
+
+        <br><br>
+
+    </div>
+    <footer class="page-footer red lighten-1">
+        <div class="footer-copyright">
+            <div class="container">
+                Made by <a class="pink-text text-lighten-4">Appliance World</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+</body>
+</html>
